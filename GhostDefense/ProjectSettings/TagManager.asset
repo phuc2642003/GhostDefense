@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -11,11 +12,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - AI
+  - Invicible
+  - Dead
+  - Collectable
   - 
   - 
   - 
@@ -38,6 +39,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BackGround
+    uniqueID: 3829234073
+    locked: 0
+  - name: ForceGround
+    uniqueID: 2147322961
+    locked: 0
+  - name: Gameplay
+    uniqueID: 1483439895
+    locked: 0
+  - name: Front
+    uniqueID: 309677485
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
